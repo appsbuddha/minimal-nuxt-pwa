@@ -1,0 +1,16 @@
+{
+  "name": "mvp-pwa",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "@nuxtjs/pwa": "^3.0.1",
+    "nuxt": "^2.14.3"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.11.2"
+  }
+}
