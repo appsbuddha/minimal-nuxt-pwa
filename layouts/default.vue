@@ -2,7 +2,7 @@
   <v-app light>
     <v-app-bar app light>
       <v-spacer />
-      <v-app-bar-nav-icon @click.native.stop="drawer = !drawer" class="hidden-md-and-up"/>
+      <v-app-bar-nav-icon @click.native.stop="drawer = !drawer"/>
     </v-app-bar>
     <v-content>
       <v-navigation-drawer right app class="pa-3" v-model="drawer">
