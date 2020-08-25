@@ -60,7 +60,7 @@ export default {
   },
   pwa: {
     workbox: {
-      enabled: false,
+      debug: true,
     },
     meta: {
       title: 'PWA MVP',
