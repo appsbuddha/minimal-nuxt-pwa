@@ -59,6 +59,9 @@ export default {
     extend(config, ctx) {}
   },
   pwa: {
+    workbox: {
+      enabled: false,
+    },
     meta: {
       title: 'PWA MVP',
       version: '0.1.0'
